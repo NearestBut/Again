@@ -14,6 +14,9 @@ const Profile = () => {
         </Component>
         <Component>
             <h1>나의 장점</h1>
+            <h2>많이 먹어요</h2>
+            <h1>나의 단점</h1>
+            <h2>많이 먹어요</h2>
         </Component>
               </div>
     );
