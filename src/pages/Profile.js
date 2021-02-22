@@ -19,6 +19,7 @@ const Profile = () => {
               <h2>많이 먹어요</h2>
           </Component>
         </div>
+
     );
 }
 
