@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 
 const Profile = () => {
     return (
-        <h1>프로필!!</h1>
+
+          
         <div>
+          <h1>프로필!!</h1>
           <Component>
               <h1>안녕 날 소개하지</h1>
               <h2>내 직업은 빠가사리 사리사리 빠가사리</h2>
@@ -18,7 +20,7 @@ const Profile = () => {
               <h1>나의 단점</h1>
               <h2>많이 먹어요</h2>
           </Component>
-        </div>
+    </div>
     );
 }
 
