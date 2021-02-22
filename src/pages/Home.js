@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 const Home = () => {
     return (
-        <h1>홈수정!!!!</h1>
+        <h1>홈수정22222!!!!</h1>
     );
 }
 
