@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 
 const Profile = () => {
     return (
-
-          
         <div>
           <h1>프로필!!</h1>
           <Component>
@@ -20,7 +18,7 @@ const Profile = () => {
               <h1>나의 단점</h1>
               <h2>많이 먹어요</h2>
           </Component>
-    </div>
+        </div>
     );
 }
 
