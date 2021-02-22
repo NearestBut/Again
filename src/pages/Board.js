@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 
 const Board = () => {
     return (
+        <div>
         <h1>방명록!!</h1>
+        <h2>방명록 수정</h2>
+        </div>
     );
 }
 
