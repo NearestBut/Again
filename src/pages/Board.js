@@ -1,14 +1,31 @@
 import React, { Component } from 'react';
+import './reset.css';
+import './board.css';
 
 const Board = () => {
     return (
-        <div>
-            <h1>방명록!!</h1>
-            <h2>방명록 수정</h2>
-            <h2>방명록 수정2</h2>
-            <h2>방명록 수정3</h2>
-            <h2>방명록 수정4</h2>
-        </div>
+       <div className="container">
+           <ul className="visitor">
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li>
+                   <div className="imgWrap">
+                        <img className="bal" src="ballon_c.png" alt="" />
+                        <img className="cy" src="cycle_c.png" alt="" />
+                   </div>
+               </li>
+           </ul>
+       </div>
     );
 }
 
