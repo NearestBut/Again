@@ -1,16 +1,10 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
 
 
 const Home = () => {
     return (
         <div>
-            <h1>Home</h1>
-            <ul>
-                <li><NavLink to="/portfolio">포트폴리오</NavLink></li>
-                <li><NavLink to="/profile">프로필</NavLink></li>
-                <li><NavLink to="/board">방명록</NavLink></li>
-            </ul>
+            <h1>홈</h1>
             <div class="skillBar">
                 <h2>LANGUAGE</h2>
                 Java <progress value="70" max="100"></progress>
