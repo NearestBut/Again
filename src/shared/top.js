@@ -7,10 +7,10 @@ class Top extends Component {
             <div className="top">
                 <p className="logo"></p>
                 <ul className="menu">
-                    <li><NavLink to="/">Home</NavLink></li>
-                    <li><NavLink to="/portfolio">Portfolio</NavLink></li>
-                    <li><NavLink to="/profile">Profile</NavLink></li>
-                    <li><NavLink to="/board">Board</NavLink></li>
+                    <li><NavLink to="/Again/">Home</NavLink></li>
+                    <li><NavLink to="/Again/portfolio">Portfolio</NavLink></li>
+                    <li><NavLink to="/Again/profile">Profile</NavLink></li>
+                    <li><NavLink to="/Again/board">Board</NavLink></li>
                 </ul>
             </div>
         );
