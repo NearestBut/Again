@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-
+import '../css/reset.css';
+import '../css/board.css';
 const Board = () => {
     return (
        <div className="container">
@@ -9,17 +10,12 @@ const Board = () => {
                <li></li>
                <li></li>
                <li></li>
-               <li></li>
-               <li></li>
-               <li></li>
-               <li></li>
-               <li></li>
-               <li></li>
-               <li></li>
                <li>
                    <div className="imgWrap">
                         <img className="bal" src="ballon_c.png" alt="" />
                         <img className="cy" src="cycle_c.png" alt="" />
+                        <textarea id="visit"></textarea>
+						<p className="btn_write">글 작성</p>
                    </div>
                </li>
            </ul>

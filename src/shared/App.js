@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import { Home, Profile, Portfolio, Board } from '../pages/controller';
+
 import Top from './Top';
 import Footer from './Footer';
 import "../css/reset.css";
@@ -15,6 +16,7 @@ class App extends Component {
                 <Route path="/profile" component={Profile} />
                 <Route path="/portfolio" component={Portfolio} />
                 <Route path="/board" component={Board} />
+                <Footer></Footer>
             </div>
         );
     }
