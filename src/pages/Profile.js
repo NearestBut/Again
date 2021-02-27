@@ -3,21 +3,22 @@ import React, { Component } from 'react';
 const Profile = () => {
     return (
         <div>
-          <h1>프로필!!</h1>
-          <Component>
-              <h1>안녕 날 소개하지</h1>
-              <h2>내 직업은 빠가사리 사리사리 빠가사리</h2>
-          </Component>
-          <Component>
-              <h1>나의 이력</h1>
-              <h2>바보가 된지 31년 쨰 입니다,</h2>
-          </Component>
-          <Component>
-              <h1>나의 장점</h1>
-              <h2>많이 먹어요</h2>
-              <h1>나의 단점</h1>
-              <h2>많이 먹어요</h2>
-          </Component>
+            <div><h1>Profile page</h1></div>
+            <img src="" width="100" height="100" />
+            <div>pull
+                <h2>Introduction</h2>
+                <h5>name : Yoon Ho Cho</h5>
+                <h5>Birth : June 14 1991</h5>  
+                <h4>Advantagement</h4>
+                <h5>Find secret key, adventure like zigzagy maze </h5>
+            </div>
+            <div>
+                <h2>Career/Education</h2>
+                <h5>Global IT 수료</h5>
+            </div>
+            <div>
+                <h2>Vision</h2>
+            </div>
         </div>
 
     );
