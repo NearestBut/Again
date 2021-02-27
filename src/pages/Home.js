@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import 'react-date-range/dist/styles.css'; // main style file
-import 'react-date-range/dist/theme/default.css'; // theme css file
-import Chart from 'chart.js'
+import Chart from './chart'
 
 const Home = () => {
     

@@ -24,7 +24,7 @@ const data = [
   },
 ];
 
-export default class Example extends PureComponent {
+export default class Chart extends PureComponent {
 
   render() {
     return (
