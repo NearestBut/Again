@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route, NavLink } from 'react-router-dom';
 import { Home, Profile, Portfolio, Board } from '../pages/controller';
-
+import  Footer from './Footer';
 class App extends Component {
     render() {
         return (
@@ -16,6 +16,7 @@ class App extends Component {
                 <Route path="/profile" component={Profile} />
                 <Route path="/portfolio" component={Portfolio} />
                 <Route path="/board" component={Board} />
+                <Footer></Footer>
             </div>
         );
     }
