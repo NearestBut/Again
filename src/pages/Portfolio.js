@@ -8,13 +8,12 @@ const Portfolio = () => {
             </div>
             <div>
                 1차 프로젝트
-                <link>git</link>
-                <link>pdf</link><br/>
+                git
+                pdf<br/>
                 2020.01.01~2020.01.31 <br/>
                 소개글<br/>
                 개발환경<br/>
-                참여도<br/>
-                
+                참여도<br/>        
             </div>
         </div>
     );
