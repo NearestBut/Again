@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import './reset.css';
-import './board.css';
 
 const Board = () => {
     return (
