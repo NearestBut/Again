@@ -16,7 +16,7 @@ class App extends Component {
                 <Route path="/profile" component={Profile} />
                 <Route path="/portfolio" component={Portfolio} />
                 <Route path="/board" component={Board} />
-                <Footer></Footer>
+                <Footer/>
             </div>
         );
     }
