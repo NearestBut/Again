@@ -2,14 +2,13 @@
 
 /*top*/
 .top {display:flex; width: 100%; height: 95px; background: #000; padding: 32.5px 100px;}
-.top .logo {width: 90px; height: 32px; background: url(./logo.svg)no-repeat center;}
+.top .logo {width: 90px; height: 32px; background: url(../resources/logo.svg)no-repeat center;}
 .top .menu {display:flex; margin: 0 0 0 100px;}
 .top .menu li {margin-right: 100px;}
 .top .menu li a {color:#fff; line-height: 32px;}
 
 
 /*footer.css*/
-
 .footer {overflow:hidden; width: 100%; height: 280px; background: rgb(143, 201, 148); padding:56px 70px 0;}
 .footer li {float:left; width: 33.33%;}
 .footer li:nth-child(1) {font-size:12px;}
