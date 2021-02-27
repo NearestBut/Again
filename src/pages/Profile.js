@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 const Profile = () => {
     return (
         <div>
+<<<<<<< HEAD
             <h1>프로필!!</h1>
                 <Component>
                     <h1>안녕 날 소개하지</h1>
@@ -18,6 +19,10 @@ const Profile = () => {
                     <h1>나의 단점</h1>
                     <h2>많이 먹어요</h2>
                 </Component>
+=======
+          <h1>프로필!!</h1>
+          asdfasdfsdf
+>>>>>>> 622af8573eda8a0925e8cdee8162624824273234
         </div>
     );
 }
