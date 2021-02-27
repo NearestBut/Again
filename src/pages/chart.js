@@ -1,0 +1,39 @@
+import React, { PureComponent } from 'react';
+import {
+  Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis,
+} from 'recharts';
+
+const data = [
+  {
+    subject: '도전정신', A: 120, B: 110, fullMark: 150,
+  },
+  {
+    subject: '주량', A: 98, B: 130, fullMark: 150,
+  },
+  {
+    subject: '구글링', A: 86, B: 130, fullMark: 150,
+  },
+  {
+    subject: '야행성', A: 99, B: 100, fullMark: 150,
+  },
+  {
+    subject: '영타속도', A: 85, B: 90, fullMark: 150,
+  },
+  {
+    subject: '의사소통', A: 65, B: 85, fullMark: 150,
+  },
+];
+
+export default class Chart extends PureComponent {
+
+  render() {
+    return (
+      <RadarChart cx={300} cy={250} outerRadius={150} width={500} height={500} data={data}>
+        <PolarGrid />
+        <PolarAngleAxis dataKey="subject" />
+        <PolarRadiusAxis />
+        <Radar name="Mike" dataKey="A" stroke="#8884d8" fill="#8884d8" fillOpacity={0.6} />
+      </RadarChart>
+    );
+  }
+}
