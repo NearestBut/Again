@@ -20,9 +20,12 @@ const Home = () => {
                 <h3>etc.</h3>
                 Git <progress value="70" max="100"></progress><br/>
             </div>
+            <div className="selfIntroduce">
+                <h2>ABOUT ME</h2>
+                <Chart/>
+            </div>
             <div className="pfPreview">
                 <h2>PORTFOLIO PREVIEW</h2>
-                <Chart/>
             </div>
             <div className="contact">
                 <h2>CONTACT</h2>
