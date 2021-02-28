@@ -150,6 +150,45 @@ const Home = () => {
             </section>
             {/* concept end */}
 
+            <section className="business up-on-scroll"></section>
+            {/* business end */}
+
+            <section className="news up-on-scroll">
+                <ul className="ir">
+                   <li class="tit">IR</li>
+                   <li>
+                      <p className="irTxt1">삼화페인트 000390</p> 
+                      <p className="irTxt2">11,200</p> 
+                      <p className="irTxt3"><span className="mark_up"></span>100 (+0.90%)</p> 
+                   </li>
+                </ul>
+                <ul className="list">
+                   <li class="tit">News</li>
+                   <li>
+                       <p className="sub">'안심닥터’ 출시 기념 안심생활 이벤트</p>
+                       <p className="txt">2월14일까지 ‘안심생활’ 이벤트 진행. 에어팟, 아이패드, 공기청정기 등 증정 안심닥터, 살균제 내성 강한 비피막바이러스 사멸, 종합 항바이러스도료</p>
+                   </li>
+                   <li>
+                       <p className="sub">장애인종합복지시설 위한 컬러유니버설디자인 개발추진</p>
+                       <p className="txt">발달장애인시설 컬러유니버설디자인 확장. 컬러유니버설디자인협회와 연구개발 진행</p>
+                   </li>
+                   <li>
+                       <p className="sub">항바이러스 페인트 ‘안심닥터’ 출시</p>
+                       <p className="txt">항바이러스 원료 함유, 바이러스 99.9% 사멸…1월5일 대리점 출시 CGV 강남, 인천시청, 해썹인증 공장, 어린이 이용시설 등 적용 완료</p>
+                   </li>
+                </ul>
+            </section>
+            {/* news end */}
+            
+            <section className="comment">
+                <div className="inputWrap">
+                    <input type="text" placeholder="제품, 컬러, 대리점 검색" />
+                </div>
+                <p className="sub">추천 검색어</p>
+                <p className="txt">#안심닥터 #그린방수마스터 #아이럭스 #아이생각</p>
+            </section>
+            {/* comment end */}
+
         </div>
     );
 }
