@@ -5,7 +5,7 @@
 .pages .up-on-scroll {transition: transform .8s, opacity 1s;}
 
 /*top*/
-.top {display:flex; width: 100%; height: 95px; background: #fff; padding: 32.5px 100px; position: fixed;top: 0; z-index: 9999;}
+.top {display:flex; width: 100%; height: 95px; background: transparent; padding: 32.5px 100px; position: fixed;top: 0; z-index: 9999;}
 .top .logo {width: 90px; height: 32px; background: url(resources/images/logo.svg)no-repeat center;}
 .top .menu {display:flex; margin: 0 0 0 100px;}
 .top .menu li {margin-right: 100px;}

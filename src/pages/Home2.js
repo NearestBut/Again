@@ -1,8 +1,22 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect, Component } from 'react';
 import 'resources/css/home.css'
 
-const Home = () => {
-    
+const useScroll = () => {
+    const [state, setState] = useState({
+      x: 0, // x와 y의 초기값을 0으로 지정
+      y: 0
+    });
+    const onScroll = () => {
+      setState({ x: window.scrollX, y: window.scrollY });
+    };
+    useEffect(() => {
+      window.addEventListener("scroll", onScroll); // scorll할 때 onScroll 이벤트 핸들러 지정
+      return () => window.removeEventListener("scroll", onScroll); // clean up
+    }, []);
+    return state;
+};
+
+const Home = () => {    
     return (
         <div className="pages">
 
@@ -53,7 +67,7 @@ const Home = () => {
                                 <img src="images/h4.jpg" />
                                 <a href="#"><p className="tag">Pet & Life</p></a>
                             </div>
-                            <p className="tit">반려동물인증 받은 펫 러브 컬러와 펫테리어 추천</p>
+                            <p className="tit">반려동물인증 받은 펫 러브 컬러와<br/> 펫테리어 추천</p>
                             <p className="txt">
                                 모든 집사들의 가장 큰 고민. 반려견과 반려묘가 머물기 좋은<br/>
                                 최상의 공간 만드는 방법
@@ -91,7 +105,7 @@ const Home = () => {
                                 <img src="images/h8.jpg" />
                                 <a href="#"><p className="tag">BrandNews</p></a>
                             </div>
-                            <p className="tit">생활방수, 이지클리닝 기능을 더한 올 뉴 아이럭스</p>
+                            <p className="tit">생활방수, 이지클리닝 기능을 더한<br/>올 뉴 아이럭스</p>
                             <p className="txt">실내 벽면/벽지용, 방문/가구용, 실내외 겸영 고채도 하이크로마 3종</p>
                         </li>
                     </ul>
@@ -99,7 +113,7 @@ const Home = () => {
             </section>
             {/* hotIssue end */}
             
-            <section className="concept">
+            <section className="concept up-on-scroll">
                 <p className="secTit1">Color Inspiration</p>
                 <p className="secTit2">
                     첫눈 오는 날과 어울리는 컬러들의 집합<br/>
@@ -107,9 +121,31 @@ const Home = () => {
                     블루톤 윈터 컬러로 인테리어에 변화를 주세요
                 </p>
                 <ul className="cont">
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li><img src="images/concept.jpg" /></li>
+                    <li>
+                        <div className="card up-on-scroll">
+                            <div className="color" style={{'background':'#005171'}}></div>
+                            <p className="tit">Teal Blue</p>
+                            <p className="txt">SH S 5040-B (0153D)</p>
+                        </div>                        
+                        <div className="card up-on-scroll">
+                            <div className="color" style={{'background':'#98B2C6'}}></div>
+                            <p className="tit">Gray Blue</p>
+                            <p className="txt">SH S 2020-R90B (0087C)</p>
+                        </div>                        
+                    </li>
+                    <li>
+                        <div className="card up-on-scroll">
+                            <div className="color" style={{'background':'#7E9AAA'}}></div>
+                            <p className="tit">Provence Blue</p>
+                            <p className="txt">SH S 3020-B (0088D)</p>
+                        </div>                        
+                        <div className="card up-on-scroll">
+                            <div className="color" style={{'background':'#BDC8D2'}}></div>
+                            <p className="tit">Winter Sky</p>
+                            <p className="txt">SH S 1510-R90B (0087B)</p>
+                        </div>                        
+                    </li>
                 </ul>
             </section>
             {/* concept end */}
