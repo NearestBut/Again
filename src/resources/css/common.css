@@ -1,6 +1,6 @@
-/* common.css */
+/*common.css*/
 
-/* fonts */
+/*fonts*/
 @font-face {
     font-family: 'notoSans';
     src: url('resources/fonts/NotoSansKR/NotoSansKR-Thin.otf') format('otf');
@@ -73,5 +73,4 @@
     font-style: normal;
 }
 
-/* layout */
-.pages {font-family: 'montserrat','notoSans',sans-serif; font-weight: normal;}
+body {font-family: 'montserrat','notoSans',sans-serif; font-weight: normal;}
