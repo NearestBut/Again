@@ -1,2 +1,47 @@
 /*home.css*/
 
+/*mainVisual*/
+.mainVisual {width: 100%; height: 100vh; position: relative;}
+.mainVisual .bg1 {width: 100%; height: 100%; background: url(resources/images/m1.jpg)no-repeat center; background-size: 100% auto; background-attachment: fixed;}
+
+/*hotIssue*/
+.hotIssue {background: #fff; padding: 140px 0 30px 370px; position: relative;}
+.hotIssue .secTit1 {font-family: "operetta-12"; font-size: 80px;}
+.hotIssue .secTit2 {line-height: 1.8; letter-spacing: -0.7px; font-size: 20px; font-weight: 500; position: absolute;top: 260px;left: 570px;}
+
+.hotIssue .inner {overflow: hidden; padding: 0 0 0 180px;}
+
+.hotIssue .inner .right {float: left; width: 480px; margin: 0 0 0 120px;}
+.hotIssue .inner .right1 {padding-top: 160px;}
+.hotIssue .inner .right li {margin-bottom: 140px;}
+
+.hotIssue .inner .right .imgWrap {width: 100%; height: auto; position: relative;}
+.hotIssue .inner .right .imgWrap img {width: 100%; height: auto;}
+.hotIssue .inner .right .tit {letter-spacing: -1px; font-size: 29px; font-weight: 600; margin: 30px 0 20px;}
+.hotIssue .inner .right .txt {line-height: 1.5; letter-spacing: -0.5px; font-size: 16px; font-weight: 500;}
+.hotIssue .inner .right .tag {color: #888; font-size: 18px; font-weight: 500; transform: rotate(270deg); transform-origin: 0% 0%; position: absolute;bottom: -15px;left: -30px;}
+
+.concept {height: 2032px; background: url(resources/images/bg_concept.jpg)no-repeat center; background-size: 100% auto; background-attachment: fixed;}
+
+@media (max-width: 1800px) {
+    .hotIssue {padding: 140px 0 30px 15%;}
+    .hotIssue .secTit2 {left: 20%;}
+
+    .hotIssue .inner {padding: 0;}
+}
+@media (max-width: 1500px) {
+    .hotIssue {padding: 140px 0 30px 5%;}
+    .hotIssue .secTit2 {left: 10%;}
+}
+@media (max-width: 1300px) {
+    .hotIssue {width: 100%; padding: 140px 3% 30px;}
+    .hotIssue .secTit2 {left: 5%;}
+
+    .hotIssue .inner .right {margin: 0 0 0 5%;}
+}
+
+/*concept*/
+.concept {position: relative;}
+.concept .secTit1 {text-align: center; color:#fff; font-family: "operetta-12"; font-size: 140px; padding: 200px 0 70px 70px;}
+.concept .secTit2 {line-height: 1.8; color:#fff; font-size: 20px; font-weight: 500; padding: 0 0 100px 30%;}
+.concept .cont {overflow: hidden; width: 1280px; margin: 0 auto;}
