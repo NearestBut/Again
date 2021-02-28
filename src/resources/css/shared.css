@@ -1,5 +1,8 @@
 /*shared.css*/
 
+/*layout*/
+.pages {width: 100%; min-height: 900px;}
+
 /*top*/
 .top {display:flex; width: 100%; height: 95px; background: #000; padding: 32.5px 100px;}
 .top .logo {width: 90px; height: 32px; background: url(resources/images/logo.svg)no-repeat center;}
@@ -7,8 +10,28 @@
 .top .menu li {margin-right: 100px;}
 .top .menu li a {color:#fff; line-height: 32px;}
 
-/*footer.css*/
+/*footer*/
 .footer {overflow:hidden; width: 100%; height: 280px; background: rgb(143, 201, 148); padding:56px 70px 0;}
 .footer li {float:left; width: 33.33%;}
 .footer li:nth-child(1) {font-size:12px;}
 .footer li:nth-child(4) {width: 100%;}
+
+/*home*/
+.hotIssue {background: #fff; padding: 140px 0 30px 370px; position: relative;}
+.hotIssue .secTit1 {font-family: Eulyoo; font-size: 80px;}
+.hotIssue .secTit2 {line-height: 1.8; letter-spacing: -0.7px; font-size: 20px; font-weight: 500; position: absolute;top: 260px;left: 570px;}
+
+.hotIssue .inner {overflow: hidden; padding: 0 0 0 180px;}
+
+.hotIssue .inner .right {float: left; width: 480px; margin: 0 0 0 120px;}
+.hotIssue .inner .right1 {padding-top: 160px;}
+.hotIssue .inner .right li {margin-bottom: 140px;}
+
+.hotIssue .inner .right .imgWrap {width: 100%; height: auto; position: relative;}
+.hotIssue .inner .right .imgWrap img {width: 100%; height: auto;}
+.hotIssue .inner .right .tit {letter-spacing: -1px; font-size: 29px; font-weight: 600; margin: 30px 0 20px;}
+.hotIssue .inner .right .txt {line-height: 1.5; letter-spacing: -0.5px; font-size: 16px; font-weight: 500;}
+.hotIssue .inner .right .tag {color: #888; font-size: 18px; font-weight: 500; transform: rotate(270deg); transform-origin: 0% 0%; position: absolute;bottom: -15px;left: -30px;}
+
+
+.concept {height: 2032px; background: url(resources/images/bg_concept.jpg)no-repeat center; background-size: 100% auto; background-attachment: fixed;}
