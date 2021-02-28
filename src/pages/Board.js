@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import '../css/reset.css';
-import '../css/board.css';
 const Board = () => {
     return (
        <div className="container">

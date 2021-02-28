@@ -1,21 +1,18 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
-import { Home, Profile, Portfolio, Board } from '../pages/controller';
-
-import Top from './Top';
-import Footer from './Footer';
-import "../css/reset.css";
-import "../css/shared.css";
+import { Top, Footer, Home, Profile, Portfolio, Board, Home2 } from 'controller/ctrl_pages';
+import 'controller/ctrl_resources';
 
 class App extends Component {
     render() {
         return (
             <div>
-                <Top/>                
+                <Top/>             
                 <Route exact path="/Again/" component={Home} />
                 <Route path="/Again/profile" component={Profile} />
                 <Route path="/Again/portfolio" component={Portfolio} />
                 <Route path="/Again/board" component={Board} />
+                <Route exact path="/Again/" component={Home2} />
                 <Footer/>
             </div>
         );

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Chart from '../js/chart'
+import Chart from 'resources/js/chart'
 
 const Home = () => {
     
