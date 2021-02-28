@@ -1,10 +1,18 @@
 import React, { Component } from 'react';
+import 'resources/css/home.css'
 
 const Home = () => {
     
     return (
         <div className="pages">
-            
+
+            <section className="mainVisual">
+                <div className="bg1"></div>
+                <div className="bg2"></div>
+                <div className="bg3"></div>
+            </section>
+            {/* mainVisual end */}
+
             <section className="hotIssue">
                 <p className="secTit1">Hot Issue</p>
                 <p className="secTit2">
@@ -92,7 +100,17 @@ const Home = () => {
             {/* hotIssue end */}
             
             <section className="concept">
-
+                <p className="secTit1">Color Inspiration</p>
+                <p className="secTit2">
+                    첫눈 오는 날과 어울리는 컬러들의 집합<br/>
+                    집콕 라이프를 유익하게 만들어 줄<br/>
+                    블루톤 윈터 컬러로 인테리어에 변화를 주세요
+                </p>
+                <ul className="cont">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </section>
             {/* concept end */}
 
