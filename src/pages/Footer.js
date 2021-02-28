@@ -1,11 +1,9 @@
-import React, { Component,Fragment } from 'react';
-import '../resources/css/reset.css';
-import '../resources/css/shared.css';
+import React, { Component } from 'react';
 
 class Footer extends Component{
     render(){
         return(
-            <Fragment>
+            <div className="pages">
                     <ul className="footer">
                         <li>
                             <div className="icon"></div>
@@ -28,7 +26,7 @@ class Footer extends Component{
                             <p>ⓒ 2020 Samhwa Paint Industrial Co., Ltd. All Rights Reserved.</p>
                         </li>
                     </ul>
-            </Fragment>
+            </div>
         );
     }
 

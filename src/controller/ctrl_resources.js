@@ -2,6 +2,7 @@
 
 // CSS
 import 'resources/css/reset.css';
+import 'resources/css/common.css';
 import 'resources/css/shared.css';
 
 // JS

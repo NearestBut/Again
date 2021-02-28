@@ -1,4 +1,5 @@
-/*visitor.css 입니다!*/
+/* visitor.css */
+
 .container {width: 1200px; height: auto; margin: 0 auto;}
 .visitor {overflow: hidden;}
 .visitor li {float:left; width:24.0625%; height:300px; background-color: rgb(197, 193, 170); margin: 0 15px 15px 0;}

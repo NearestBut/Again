@@ -1,0 +1,77 @@
+/* common.css */
+
+/* fonts */
+@font-face {
+    font-family: 'notoSans';
+    src: url('resources/fonts/NotoSansKR/NotoSansKR-Thin.otf') format('otf');
+    font-weight: '100';
+}
+@font-face {
+    font-family: 'notoSans';
+    src: url('resources/fonts/NotoSansKR/NotoSansKR-Light.otf') format('otf');
+    font-weight: '200';
+}
+@font-face {
+    font-family: 'notoSans';
+    src: url('resources/fonts/NotoSansKR/NotoSansKR-Regular.otf') format('otf');
+    font-weight: 'normal';
+}
+@font-face {
+    font-family: 'notoSans';
+    src: url('resources/fonts/NotoSansKR/NotoSansKR-Medium.otf') format('otf');
+    font-weight: '400';
+}
+@font-face {
+    font-family: 'notoSans';
+    src: url('resources/fonts/NotoSansKR/NotoSansKR-Bold.otf') format('otf');
+    font-weight: '500';
+}
+@font-face {
+    font-family: 'notoSans';
+    src: url('resources/fonts/NotoSansKR/NotoSansKR-Black.otf') format('otf');
+    font-weight: '600';
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url('resources/fonts/Montserrat/Montserrat-Thin.ttf') format('ttf');
+    font-weight: '100';
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url('resources/fonts/Montserrat/Montserrat-Light.ttf') format('ttf');
+    font-weight: '200';
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url('resources/fonts/Montserrat/Montserrat-Regular.ttf') format('ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url('resources/fonts/Montserrat/Montserrat-Medium.ttf') format('ttf');
+    font-weight: '400';
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url('resources/fonts/Montserrat/Montserrat-Bold.ttf') format('ttf');
+    font-weight: '500';
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url('resources/fonts/Montserrat/Montserrat-ExtraBold.ttf') format('ttf');
+    font-weight: '600';
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url('resources/fonts/Montserrat/Montserrat-Black.ttf') format('ttf');
+    font-weight: '700';
+}
+@font-face {
+    font-family: 'Eulyoo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* layout */
+.pages {font-family: 'montserrat','notoSans',sans-serif; font-weight: normal;}

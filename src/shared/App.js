@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
-import { Top, Footer, Home, Profile, Portfolio, Board, Home2 } from 'controller/ctrl_pages';
 import 'controller/ctrl_resources';
+import { Top, Footer, Home, Profile, Portfolio, Board, Home2 } from 'controller/ctrl_pages';
 
 class App extends Component {
     render() {

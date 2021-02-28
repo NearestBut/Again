@@ -4,7 +4,7 @@ import Chart from 'resources/js/chart'
 const Home = () => {
     
     return (
-        <div>
+        <div className="pages">
             <h1>홈</h1>
             <div className="skillBar">
                 <h2>SKILL</h2>
