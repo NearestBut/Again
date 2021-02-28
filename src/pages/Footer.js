@@ -1,6 +1,6 @@
 import React, { Component,Fragment } from 'react';
-import '../css/reset.css';
-import '../css/shared.css';
+import '../resources/css/reset.css';
+import '../resources/css/shared.css';
 
 class Footer extends Component{
     render(){
