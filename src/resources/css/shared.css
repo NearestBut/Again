@@ -2,6 +2,7 @@
 
 /*layout*/
 .pages {width: 100%; min-height: 900px;}
+.pages .up-on-scroll {transition: transform .8s, opacity 1s;}
 
 /*top*/
 .top {display:flex; width: 100%; height: 95px; background: #fff; padding: 32.5px 100px; position: fixed;top: 0; z-index: 9999;}

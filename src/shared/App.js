@@ -3,10 +3,30 @@ import { Route } from 'react-router-dom';
 import 'controller/ctrl_resources';
 import { Top, Footer, Home, Profile, Portfolio, Board, Home2 } from 'controller/ctrl_pages';
 
+function isElementUnderBottom(elem, triggerDiff) {
+    const { top } = elem.getBoundingClientRect();
+    const { innerHeight } = window;
+    return top > innerHeight + (triggerDiff || 0);
+}
+
+function handleScroll() {
+    const elems = document.querySelectorAll('.up-on-scroll');
+    elems.forEach(elem => {
+        if (isElementUnderBottom(elem, -100)) {
+        elem.style.opacity = "0";
+        elem.style.transform = 'translateY(70px)';
+        } else {
+        elem.style.opacity = "1";
+        elem.style.transform = 'translateY(0px)';
+        }
+    })
+}
+  
+window.addEventListener('scroll', handleScroll);
 class App extends Component {
     render() {
         return (
-            <div>
+            <div className="pages">
                 <Top/>             
                 <Route exact path="/Again/" component={Home} />
                 <Route path="/Again/profile" component={Profile} />
