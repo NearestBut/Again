@@ -33,7 +33,7 @@ class Left extends React.Component {
                 className={
                     "issueLeft" +
                     (this.state.width > 1500&&this.state.scrollTop > 900&&this.state.scrollTop < 3500 ? ' on':'') +
-                    (this.state.width <= 1500&&this.state.width >= 1300&&this.state.scrollTop > 900&&this.state.scrollTop < 2900 ? ' on':'')
+                    (this.state.width <= 1500&&this.state.width >= 1300&&this.state.scrollTop > 750&&this.state.scrollTop < 2900 ? ' on':'')
                 }
                 onScroll={
                     this.handleScroll
