@@ -5,8 +5,7 @@ class Top extends React.Component {
 	constructor() {
     	super();
         this.state = {
-        	scrollTop: 0,
-          isOn : false
+        	scrollTop: 0
         }
     }
     
