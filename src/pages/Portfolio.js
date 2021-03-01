@@ -4,7 +4,7 @@ import MultipleItems from 'pages/components/portfolio/slide';
 
 function Portfolio() {
     return (
-        <div>
+        <div className="pages" style={{'background':'#ccc','padding-top':'95px'}}>
           
             <br/>
             <br/>
