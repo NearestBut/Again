@@ -1,15 +1,19 @@
 /*shared.css*/
 
 /*layout*/
-.pages {width: 100%; min-height: 900px;}
-.pages .up-on-scroll {transition: transform .8s, opacity 1s;}
+.pages {width: 100%; min-height: 2000px; background: #fff;}
+.pages .up-on-scroll,.left-on-scroll,.right-on-scroll {transition: transform .8s, opacity 1s;}
 
 /*top*/
-.top {display:flex; width: 100%; height: 95px; background: transparent; padding: 32.5px 100px; position: fixed;top: 0; z-index: 9999;}
-.top .logo {width: 90px; height: 32px; background: url(resources/images/logo.svg)no-repeat center;}
+.top {display:flex; width: 100%; height: 95px; background: transparent; transition: .3s; padding: 32.5px 100px; position: fixed;top: 0; z-index: 9999;}
+.top .logo {width: 90px; height: 32px; background: url(resources/images/logo_w.png)no-repeat center; background-size: 100% auto;}
 .top .menu {display:flex; margin: 0 0 0 100px;}
 .top .menu li {margin-right: 100px;}
-.top .menu li a {color:#000; line-height: 32px; font-weight: 600;}
+.top .menu li a {color:#fff; line-height: 32px; font-weight: 600;}
+
+.top.on {background: #fff; border-bottom: 1px solid #e8e8e8;}
+.top.on .logo {width: 90px; height: 32px; background: url(resources/images/logo_c.png)no-repeat center; background-size: 100% auto;}
+.top.on .menu li a {color:#000;}
 
 /*footer*/
 .footer {overflow:hidden; width: 100%; height: 280px; background: #fff; padding:56px 70px 0;}

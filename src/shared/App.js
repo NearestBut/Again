@@ -12,18 +12,38 @@ function isElementUnderBottom(elem, triggerDiff) {
 function handleScroll() {
     const elems = document.querySelectorAll('.up-on-scroll');
     elems.forEach(elem => {
-        if (isElementUnderBottom(elem, -100)) {
-        elem.style.opacity = "0";
-        elem.style.transform = 'translateY(70px)';
+        if (isElementUnderBottom(elem, -30)) {
+            elem.style.opacity = "0";
+            elem.style.transform = 'translateY(70px)';
         } else {
-        elem.style.opacity = "1";
-        elem.style.transform = 'translateY(0px)';
+            elem.style.opacity = "1";
+            elem.style.transform = 'translateY(0px)';
+        }
+    })
+    const elemsL = document.querySelectorAll('.left-on-scroll');
+    elemsL.forEach(elem => {
+        if (isElementUnderBottom(elem, -30)) {
+            elem.style.opacity = "0";
+            elem.style.transform = 'translateX(-70px)';
+        } else {
+            elem.style.opacity = "1";
+            elem.style.transform = 'translateX(0px)';
+        }
+    })
+    const elemsR = document.querySelectorAll('.right-on-scroll');
+    elemsR.forEach(elem => {
+        if (isElementUnderBottom(elem, -30)) {
+            elem.style.opacity = "0";
+            elem.style.transform = 'translateX(70px)';
+        } else {
+            elem.style.opacity = "1";
+            elem.style.transform = 'translateX(0px)';
         }
     })
 }
   
 window.addEventListener('scroll', handleScroll);
-class App extends Component {
+class App extends Component {    
     render() {
         return (
             <div className="pages">
