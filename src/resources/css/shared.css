@@ -16,7 +16,7 @@
 .top.on .menu li a {color:#000;}
 
 /*footer*/
-.footer {overflow:hidden; width: 100%; background: #fff; padding:56px 70px 0;}
+.footer {overflow:hidden; width: 100%; background: #fff; padding:56px 70px;}
 .footer >li {float:left; width: 33.33%;}
 .footer >li:nth-child(1) {width: 33.34%; font-size:12px;}
 .footer >li:nth-child(2) {padding-left: 150px;}
