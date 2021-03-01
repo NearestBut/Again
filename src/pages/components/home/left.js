@@ -1,12 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import $ from "jquery";
 
 class Left extends React.Component {
 	constructor() {
     	super();
         this.state = {
         	scrollTop: 0,
-          isOn : false
+            width: 0
         }
     }
     
@@ -19,10 +20,11 @@ class Left extends React.Component {
     }
     
     handleScroll = (e) => {
-    	const scrollTop = ('scroll', e.srcElement.scrollingElement.scrollTop);
-      this.setState({
-        scrollTop
-      })
+        const scrollTop = ('scroll', e.srcElement.scrollingElement.scrollTop);
+        this.setState({
+            scrollTop,
+            width : $(window).width()
+        })
     }
 
     render() {
@@ -30,7 +32,8 @@ class Left extends React.Component {
             <div
                 className={
                     "issueLeft" +
-                    ((this.state.scrollTop > 900)&&(this.state.scrollTop < 3500) ? ' on':'')
+                    (this.state.width > 1500&&this.state.scrollTop > 900&&this.state.scrollTop < 3500 ? ' on':'') +
+                    (this.state.width <= 1500&&this.state.width >= 1300&&this.state.scrollTop > 900&&this.state.scrollTop < 2900 ? ' on':'')
                 }
                 onScroll={
                     this.handleScroll
