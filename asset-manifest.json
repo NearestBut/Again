@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Again/static/css/main.7769b91b.chunk.css",
+    "main.css": "/Again/static/css/main.af00e2ed.chunk.css",
     "main.js": "/Again/static/js/main.00302085.chunk.js",
     "main.js.map": "/Again/static/js/main.00302085.chunk.js.map",
     "runtime-main.js": "/Again/static/js/runtime-main.0b349d68.js",
@@ -12,7 +12,7 @@
     "static/js/3.f35b7b82.chunk.js.map": "/Again/static/js/3.f35b7b82.chunk.js.map",
     "index.html": "/Again/index.html",
     "static/css/2.94faa6fb.chunk.css.map": "/Again/static/css/2.94faa6fb.chunk.css.map",
-    "static/css/main.7769b91b.chunk.css.map": "/Again/static/css/main.7769b91b.chunk.css.map",
+    "static/css/main.af00e2ed.chunk.css.map": "/Again/static/css/main.af00e2ed.chunk.css.map",
     "static/js/2.f1382003.chunk.js.LICENSE.txt": "/Again/static/js/2.f1382003.chunk.js.LICENSE.txt",
     "static/media/common.css": "/Again/static/media/NotoSansKR-Thin.30fa6d56.otf",
     "static/media/home.css": "/Again/static/media/m1.a36fa0a7.jpg",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.0b349d68.js",
     "static/css/2.94faa6fb.chunk.css",
     "static/js/2.f1382003.chunk.js",
-    "static/css/main.7769b91b.chunk.css",
+    "static/css/main.af00e2ed.chunk.css",
     "static/js/main.00302085.chunk.js"
   ]
 }
