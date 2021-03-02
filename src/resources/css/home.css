@@ -1,8 +1,11 @@
 /*home.css*/
 
 /*mainVisual*/
-.mainVisual {width: 100%; height: 100vh; position: relative;}
-.mainVisual .bg1 {width: 100%; height: 100%; background: url(resources/images/m1.jpg)no-repeat center; background-size: 100% auto; background-attachment: fixed;}
+.mainVisual {width: 100%;}
+.mainVisual .bg {width: 100%; height: 100vh; background-size: 100% auto; background-attachment: fixed;}
+.mainVisual .bg1 {background: url(resources/images/m1.jpg)no-repeat center;}
+.mainVisual .bg2 {background: url(resources/images/m2.jpg)no-repeat center;}
+.mainVisual .bg3 {background: url(resources/images/m3.jpg)no-repeat center;}
 
 @media (max-width: 1800px) {
     .mainVisual .bg1 {background-size: auto 100%;}
