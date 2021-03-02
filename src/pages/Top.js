@@ -35,6 +35,7 @@ class Top extends React.Component {
               <li><NavLink to="/Again/board">Board</NavLink></li>
               <li><NavLink to="/Again/Home2">home2</NavLink></li>
               <li><NavLink to="/Again/Board2">board2</NavLink></li>
+              <li><NavLink to="/Again/portfolio2">Portfolio2</NavLink></li>
           </ul>
         </div>
       );
