@@ -1,0 +1,142 @@
+/*home.css*/
+
+/*mainVisual*/
+.mainVisual {width: 100%;}
+.mainVisual .bg {width: 100%; height: 100vh; background-size: 100% auto; background-attachment: fixed;}
+.mainVisual .bg1 {background: url(resources/images/m1.jpg)no-repeat center;}
+.mainVisual .bg2 {background: url(resources/images/m2.jpg)no-repeat center;}
+.mainVisual .bg3 {background: url(resources/images/m3.jpg)no-repeat center;}
+
+@media (max-width: 1800px) {
+    .mainVisual .bg1 {background-size: auto 100%;}
+}
+@media (max-width: 1500px) {
+    .mainVisual .bg1 {background-size: 115% auto;}
+}
+@media (max-width: 1300px) {
+}
+
+/*hotIssue*/
+.hotIssue {width: 100%; background: #fff; padding: 140px 0 30px 370px; position: relative;}
+.hotIssue .secTit1 {font-family: "operetta-12"; font-size: 80px;}
+.hotIssue .secTit2 {line-height: 1.8; letter-spacing: -0.7px; font-size: 20px; font-weight: 500; position: absolute;top: 260px;left: 570px;}
+
+.issueLeft {width: 180px; transition: .2s; opacity: 0; position: fixed;top: 420px;left: 370px; z-index: 1;}
+.issueLeft.on {transition: .8s; opacity: 1;}
+.issueLeft img {width: 100%;}
+.issueLeft .tit {font-size: 18px; font-weight: 600; padding: 15px 0;}
+.issueLeft .link1 {color:#000; font-size: 15px; font-weight: 600; padding: 0 0 12px; position: relative;}
+.issueLeft .link1:hover {text-decoration: underline;}
+.issueLeft .link1 span {width: 16px; height: 16px; background: url(resources/images/ic_arrow.svg)no-repeat center, #000; position: absolute;top: 0;right: 87px;}
+.issueLeft .link2 {color:#888; font-size: 13px;}
+.issueLeft .link2:hover {text-decoration: underline;}
+
+.hotIssue .inner {overflow: hidden; padding: 0 0 0 180px;}
+.hotIssue .inner .right {float: left; width: 480px; margin: 0 0 0 120px;}
+.hotIssue .inner .right1 {padding-top: 160px;}
+.hotIssue .inner .right li {margin-bottom: 140px;}
+
+.hotIssue .inner .right .imgWrap {width: 100%; height: auto; position: relative;}
+.hotIssue .inner .right .imgWrap img {width: 100%; height: auto;}
+.hotIssue .inner .right .tit {line-height: 1.2; letter-spacing: -1px; font-size: 29px; font-weight: 600; margin: 30px 0 20px;}
+.hotIssue .inner .right .txt {line-height: 1.5; letter-spacing: -0.5px; font-size: 16px; font-weight: 500;}
+.hotIssue .inner .right .tag {color: #888; font-size: 18px; font-weight: 500; transform: rotate(270deg); transform-origin: 0% 0%; position: absolute;bottom: -15px;left: -30px;}
+
+@media (max-width: 1800px) {
+    .hotIssue {padding: 140px 0 30px 15%;}
+    .hotIssue .secTit2 {left: 20%;}
+
+    .hotIssue .inner {padding: 0;}
+}
+@media (max-width: 1500px) {
+    .hotIssue {padding: 140px 0 30px 5%;}
+    .hotIssue .secTit2 {left: 10%;}
+
+    .issueLeft {width: 130px; left: 5%;top: auto;bottom: 100px;}
+    .issueLeft .tit {padding: 10px 0;}
+    .issueLeft .link1 span {right: 40px;}
+
+    .hotIssue .inner {padding: 0 0 0 12%;}
+    .hotIssue .inner .right {width: 370px; margin: 0 0 0 100px;}
+    .hotIssue .inner .right .tit {font-size: 23px; margin: 25px 0 15px;}
+    .hotIssue .inner .right .txt {font-size: 15px;}
+}
+@media (max-width: 1300px) {
+    .hotIssue {width: 100%; padding: 140px 0 30px 3%;}
+    .hotIssue .secTit2 {left: 5%;}
+}
+
+/*concept*/
+.concept {background: url(resources/images/bg_concept.jpg)no-repeat center; background-size: 100% auto; background-attachment: fixed; padding: 0 0 250px; position: relative;}
+.concept .secTit1 {text-align: center; color:#fff; font-family: "operetta-12"; font-size: 140px; padding: 200px 0 70px 70px;}
+.concept .secTit2 {line-height: 1.8; color:#fff; font-size: 20px; font-weight: 500; padding: 0 0 100px 30%;}
+.concept .cont {overflow: hidden; width: 1280px; margin: 0 auto;}
+.concept .cont li {float: left; width: 350px;}
+.concept .cont li:nth-child(1) {width: 580px;}
+.concept .cont li:nth-child(1) img {width: 100%;}
+.concept .cont li:nth-child(2) {padding: 330px 0 0;}
+.concept .cont li:nth-child(3) {padding: 150px 0 0;}
+.concept .cont li .card {background: #fff; padding: 4px; margin: 0 0 60px 60px;}
+.concept .cont li .card .color {width: 100%; height: 272px; background: #000;}
+.concept .cont li .card .tit {line-height: 35px; font-size: 18px; font-weight: 700; padding: 7px 12px 0;}
+.concept .cont li .card .txt {line-height: 15px; font-size: 14px; font-weight: 400; padding: 4px 12px 25px;}
+
+@media (max-width: 1800px) {
+}
+@media (max-width: 1500px) {
+    .concept {padding: 0 0 150px;}
+    .concept .secTit1 {font-size: 90px; padding: 160px 0 40px 40px;}
+    .concept .secTit2 {font-size: 15px; padding: 0 0 50px 30%;}
+    .concept .cont {width: 1000px;}
+    .concept .cont li {width: 270px;}
+    .concept .cont li:nth-child(1) {width: 430px;}
+    .concept .cont li:nth-child(2) {padding: 240px 0 0;}
+    .concept .cont li:nth-child(3) {padding: 100px 0 0;}
+    .concept .cont li .card {padding: 3px; margin: 0 0 40px 40px;}
+}
+@media (max-width: 1300px) {
+}
+
+/*news*/
+.news {overflow: hidden; padding: 140px 0 170px 20%;}
+.news .ir {float: left; width: 300px;}
+.news .ir .irTxt1 {font-size: 17px; font-weight: 600; padding: 30px 0;}
+.news .ir .irTxt2 {color:#f94f4f; font-size: 45px; font-weight: 600; padding: 0 0 15px;}
+.news .ir .irTxt3 {color:#f94f4f; font-size: 16px; font-weight: 700; padding: 0 0 0 20px; position: relative;}
+.news .ir .irTxt3 .mark_up {width: 11px; height: 6px; background: url(resources/images/mark_up1.gif)no-repeat center; position: absolute;top: 3px;left: 0;}
+.news .list {float: left; width: 780px;}
+.news .list li {border-bottom: 1px solid #e5e5e5; padding: 30px 0;}
+.news .list li .sub {font-size: 22px; font-weight: 600; margin: 0 0 20px;}
+.news .list li .txt {overflow: hidden; width: 95%; text-overflow: ellipsis; white-space: nowrap; color: #555; font-size: 15px; font-weight: 500;}
+
+.news li.tit {font-family: "operetta-12"; font-size:75px; border: 0; padding: 0 0 30px;}
+
+@media (max-width: 1800px) {
+}
+@media (max-width: 1500px) {
+    .news {padding: 130px 0 140px 10%;}
+    .news .ir {width: 200px;}
+    .news .list {width: 700px;}
+}
+@media (max-width: 1300px) {
+}
+
+/*comment*/
+.comment {height: 480px; background: url(resources/images/bg_comment.jpg)no-repeat center; background-size: auto 100%; padding: 150px 0 0;}
+.comment .inputWrap {width: 980px; background: url(resources/images/ic_search.svg)no-repeat center left 29px,#fff; padding: 16px 16px 16px 72px; margin: 0 auto 40px;}
+.comment .inputWrap input {width: 100%; height: 33px; line-height: 33px; color:#888; font-size: 24px; border: 0; padding: 2px 0 0;}
+.comment .inputWrap input:focus {outline: 0;}
+.comment .sub {width: 980px; color: #fff; font-size: 16px; font-weight: 600; margin: 0 auto;}
+.comment .txt {width: 980px; line-height: 1.67; letter-spacing: -1px; color: #fff; font-size: 24px; font-weight: 700; margin: 0 auto;}
+
+@media (max-width: 1800px) {
+}
+@media (max-width: 1500px) {
+    .comment {height: 420px;}
+    .comment .inputWrap {width: 80%;}
+    .comment .inputWrap input {height: 28px; line-height: 28px; font-size: 18px;}
+    .comment .sub {width: auto; text-indent: 10%; font-size: 15px;}
+    .comment .txt {width: auto; text-indent: 10%; font-size: 20px;}
+}
+@media (max-width: 1300px) {
+}
