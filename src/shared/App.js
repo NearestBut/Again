@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import 'controller/ctrl_resources';
-import { Top, Footer, Home, Profile, Portfolio, Board, Home2, Board2 } from 'controller/ctrl_pages';
+import { Top, Footer, Home, Profile, Portfolio, Board, Home2, Board2, Portfolio2 } from 'controller/ctrl_pages';
 
 function isElementUnderBottom(elem, triggerDiff) {
     const { top } = elem.getBoundingClientRect();
@@ -54,6 +54,7 @@ class App extends Component {
                 <Route path="/Again/board" component={Board} />
                 <Route exact path="/Again/Home2" component={Home2} />
                 <Route exact path="/Again/Board2" component={Board2} />
+                <Route path="/Again/portfolio2" component={Portfolio2} />
                 <Footer/>
             </div>
         );
