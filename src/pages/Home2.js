@@ -1,16 +1,47 @@
 import React, { useState, useEffect, Component } from 'react';
 import 'resources/css/home.css';
 import Left from 'pages/components/home/left';
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { 
+    Navigation, 
+    Pagination, 
+    Scrollbar, 
+    A11y,
+    Autoplay
+} from "swiper";
+
+//style
+import "swiper/swiper.scss";
+import "swiper/swiper.scss";
+import "swiper/components/navigation/navigation.scss";
+import "swiper/components/pagination/pagination.scss";
+import "swiper/components/scrollbar/scrollbar.scss";
+import 'resources/css/portfolio.css';
+SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 
 const Home2 = () => {    
     return (
         <div className="pages">
-            
-            <section className="mainVisual">
-                <div className="bg1"></div>
-                <div className="bg2"></div>
-                <div className="bg3"></div>
-            </section>
+                        
+            <Swiper
+            className="mainVisual"
+            Navigation={{ clickable: true }}
+            spaceBetween={0}
+            slidesPerView={1}
+            autoplay={{ delay: "2000", disableOnInteraction: false }}
+            // direction= {'vertical'}
+            speed={600}
+            loop={true}
+            mousewheel={true}
+            pagination={{ clickable: true }}
+            // scrollbar={{ draggable: true }}
+            onSwiper={(swiper) => console.log(swiper)}
+            onSlideChange={() => console.log("slide change")}            
+            >
+            <SwiperSlide className="bg bg1"> slide1 </SwiperSlide>
+            <SwiperSlide className="bg bg2"> slide2 </SwiperSlide>
+            <SwiperSlide className="bg bg3"> slide3 </SwiperSlide>
+            </Swiper>
             {/* mainVisual end */}            
 
             <section className="hotIssue">
