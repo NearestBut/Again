@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-y
 const Profile = () => {
     return (
         <div>
