@@ -45,10 +45,10 @@ const Home2 = () => {
             {/* mainVisual end */}            
 
             <section className="hotIssue">
-                <p className="secTit1 up-on-scroll">Hot Issue</p>
+                <p className="secTit1 up-on-scroll">About Me</p>
                 <p className="secTit2 up-on-scroll">
-                    트렌드부터 다양한 이슈및 SNS,<br/>
-                    삼화페인트의 모든 소식들을 만나보세요.
+                    프로그래밍이 바꿔 놓은,<br/>
+                    저의 다양한 면모를 소개합니다. 
                 </p>
                 <Left/>
                 <div className="inner">                    
@@ -58,18 +58,18 @@ const Home2 = () => {
                                 <img src="images/h1.png" />
                                 <a href="#"><p className="tag">BrandNews</p></a>
                             </div>
-                            <p className="tit">2월의 색 #노란달꽃색 #귀한자수정색</p>
-                            <p className="txt">다가오는 봄을 시샘하며, 추위가 심술을 부리는 2월의 대표 색은 환한 보름달의 달무리를 닮은 #노란달꽃색과 볼수록 품위가 느껴지는 #귀한자수정색입니다.</p>                            
+                            <p className="tit">Google Knows Everything</p>
+                            <p className="txt">프로그래밍을 하며 향상한 면모 중 단연 구글링이 돋보입니다. "검색해서 내 것으로 만들자!" #구글링마스터</p>                            
                         </li>
                         <li className="up-on-scroll">
                             <div className="imgWrap">
                                 <img src="images/h2.jpg" />
                                 <a href="#"><p className="tag">BrandNews</p></a>
                             </div>
-                            <p className="tit">안심닥터 안심생활 EVENT</p>
+                            <p className="tit">Type Speedy, Also Accurately</p>
                             <p className="txt">
-                                실내 바이러스를 99.9% 제거하는 안심닥터로 안심생활 만드세요. 
-                                아이패드, 공기청정기 증정 이벤트 진행 중!
+                                한컴타자나 영작 과제보다도 영타 속도 향상에 효과적인 것은
+                                바로 코딩이었습니다... #빠르고 #정확하게 #빨간 줄은 NO
                             </p>
                         </li>
                         <li className="up-on-scroll">
@@ -98,25 +98,27 @@ const Home2 = () => {
                                 <img src="images/h5.png" />
                                 <a href="#"><p className="tag">BrandNews</p></a>
                             </div>
-                            <p className="tit">투톤라이브 ep2. 스텔라장-빌런😈</p>
-                            <p className="txt">2월의 주인공 스텔라 장, 유쾌하고도 발랄한 노란 달꽃 뒤에, 고혹적인 빌런이 숨어있는 삼화페인트 2월 컬러🎨</p>
+                            <p className="tit">You Never Walk Alone</p>
+                            <p className="txt">팀 프로젝트를 진행하면서 놀랍게도 타인의 마음을 이해하는 것은 물론 타인의 코드까지 이해하게 되었습니다. #의사소통 #협업</p>
                         </li>
                         <li className="up-on-scroll">
                             <div className="imgWrap">
                                 <img src="images/h6.png" />
                                 <a href="#"><p className="tag">Painting Guide</p></a>
                             </div>
-                            <p className="tit">EP.01 페인트 오픈하기</p>
-                            <p className="txt">페인트 오픈방법부터 V컷 페인팅이라는 꿀팁까지!
-                            셀프페인팅의 첫 발걸음 시작해볼까요?</p>
+                            <p className="tit">Drink, Anything It Is</p>
+                            <p className="txt">낮에는 커피, 밤에는 맥주가 작업의 집중력을 높여줍니다. #얼죽아 #작업 후 맥주 한 캔</p>
                         </li>
                         <li className="up-on-scroll">
                             <div className="imgWrap">
                                 <img src="images/h7.png" />
                                 <a href="#"><p className="tag">Samwha Story</p></a>
                             </div>
-                            <p className="tit">1월의 색 #긴밤하늘색 #설백색</p>
-                            <p className="txt">75주년 기념, 순우리말 색이름 프로젝트</p>
+                            <p className="tit">Just Do It!</p>
+                            <p className="txt">
+                                작업을 할 때 도전정신이 중요하다는 것을 깨달았습니다. 그리고 관점을 달리 했죠. 
+                                에러를 두려워하고 생각만 할 시간에 코드를 치고 실행해보기로요! #도전정신 #일단 해봐!
+                            </p>
                         </li>
                         <li className="up-on-scroll">
                             <div className="imgWrap">
